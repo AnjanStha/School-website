@@ -1,0 +1,93 @@
+body{
+	
+	font-family: sans-serif;
+	background-image:url(../images/1.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+h2{
+	padding: 0 0 0px;
+	text-align: center;
+	font-size: 25px;
+}
+	
+.contact{
+	border-radius: 5%;
+	width: 400px;
+	height: 580px;
+	background: rgba(0,0,0,0.5);
+	color: white;
+	top: 10%;
+	left: 35%;
+	position: absolute;
+	transform: translate(-50%,-50%)
+	box-sizing: border-box;  
+    padding: 15px 50px; 
+}
+.contact input[type="email"]
+{
+	padding: 10px;
+	border: none;
+	border-bottom: 2px solid #fff;
+	border-bottom-style: line;
+	outline: inherit;
+	background: transparent;
+	font-size: 15px;
+	color: white;
+	height: 40px;  
+}
+.contact p{
+	font-family: sans-serif;
+	padding: 0 0 0;
+	margin: 0;
+	font-weight:  bold;
+}
+.contact input{
+	width: 100%;
+	margin-bottom: 15px;
+	color: aqua;
+}
+.contact input[type="text"]
+{
+	padding: 10px;
+	border: none;
+	border-bottom: 2px solid #fff;
+	border-bottom-style: line;
+	outline: inherit;
+	background: transparent;
+	font-size: 15px;
+	color: white;
+	height: 40px;  
+}
+.contact textarea{
+	padding: 10px;
+	resize:none;
+	border: none;
+	border-bottom: 2px solid #fff;
+	border-bottom-style: line;
+	outline: inherit;
+	background: transparent;
+	font-size: 20px;
+	color: white;
+	width: 400;
+	height: 200px;  /*height of box*/
+}
+.contact input[type="submit"]
+{  margin-top: 30px;
+	font-size: 20px;
+	height: 40px;
+	font-family: sans-serif;
+	color: black;
+	border: none;
+	outline: none;
+	background: blue;
+	color: #fff;
+	border-radius: 20px;
+}
+.contact input[type="submit"]:hover
+{
+	cursor: pointer;
+	background: green;
+	color: #000;
+}

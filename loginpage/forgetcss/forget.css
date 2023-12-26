@@ -1,0 +1,78 @@
+body{
+	margin: 0 100px 0 100px;
+	margin-left: 200px;
+	margin-right: 100px;
+	font-family: sans-serif;
+	background-image:url(../1.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+	
+.mail{
+	border-radius: 5%;
+	width: 400px;
+	height: 200px;
+	background: rgba(0,0,0,0.5);
+	color: white;
+	top: 15%;
+	left: 35%;
+	position: absolute;
+	transform: translate(-50%,-50%)
+	box-sizing: border-box;  
+    padding: 40px 50px; /*padding top bottom and left right*/
+}
+.mail p{
+	font-family: sans-serif;
+	padding: 0 0 0;
+	margin: 0;
+	font-weight:  bold;
+}
+.mail input{
+	width: 100%;
+	margin-bottom: 20px;
+	color: aqua;
+}
+.mail input[type="email"]
+{
+	padding: 15px;
+	border: none;
+	border-bottom: 2px solid #fff;
+	border-bottom-style: line;
+	outline: inherit;
+	background: transparent;
+	font-size: 15px;
+	color: white;
+	height: 30px;  /*height of box*/
+}
+.mail input[type="text"]
+{
+	padding: 15px;
+	border: none;
+	border-bottom: 2px solid #fff;
+	border-bottom-style: line;
+	outline: inherit;
+	background: transparent;
+	font-size: 15px;
+	color: white;
+	height: 60px;  /*height of box*/
+}
+
+.mail input[type="submit"]
+{  margin-top: 30px;
+	font-size: 20px;
+	height: 50px;
+	font-family: sans-serif;
+	color: black;
+	border: none;
+	outline: none;
+	background: blue;
+	color: #fff;
+	border-radius: 20px;
+}
+.mail input[type="submit"]:hover
+{
+	cursor: pointer;
+	background: green;
+	color: #000;
+}
