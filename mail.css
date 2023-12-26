@@ -1,0 +1,74 @@
+*{
+	box-sizing: border-box;
+}
+	
+.mail{
+	border-radius: 5%;
+	width: 400px;
+	height: 500px;
+	background: black;
+	opacity: 0.7;
+	color: black;
+	margin-top: 90px;
+	left: 30%;
+	position: absolute;
+	transform: translate(-50%,-50%)
+	box-sizing: border-box;  
+    padding: 50px 50px; 
+}
+.mail p{
+	color: white;
+	font-family: sans-serif;
+	padding: 0 0 0;
+	margin: 0;
+	font-weight:  bold;
+}
+.mail input{
+	width: 100%;
+	margin-bottom: 20px;
+	color: aqua;
+}
+.mail input[type="text"],.mail input[type="email"]
+{
+	padding: 15px;
+	border: none;
+	border-bottom: 2px solid #fff;
+	border-bottom-style: line;
+	outline: inherit;
+	background: transparent;
+	font-size: 17px;
+	color: white;
+	height: 60px;  /*height of box*/
+}
+.mail textarea{
+	padding: 15px;
+	resize:none;
+	border: none;
+	border-bottom: 2px solid #fff;
+	border-bottom-style: line;
+	
+	outline: 5px;
+	background: transparent;
+	font-size: 17px;
+	color: white;
+	width: 300px;
+	height: 220px;  /*height of box*/
+}
+.mail input[type="submit"]
+{  margin-top: 30px;
+	font-size: 20px;
+	height: 40px;
+	font-family: sans-serif;
+	color: black;
+	border: none;
+	outline: none;
+	background: blue;
+	color: #fff;
+	border-radius: 20px;
+}
+.mail input[type="submit"]:hover
+{
+	cursor: pointer;
+	background: green;
+	color: #000;
+}
